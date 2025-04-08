@@ -27,12 +27,12 @@ export default function RootLayout({
 
     {/* Fixed header */}
     <div className="absolute bg-white z-10 inset-0 flex h-16 items-center justify-between p-5 sm:p-8 md:hidden">
-      <Image 
+      {/* <Image 
         src="/assets/images/osbicanada.png" 
         width={120} 
         height={120} 
         alt="logo" 
-      />
+      /> */}
       
         {/* <MobileNav /> */}
      
