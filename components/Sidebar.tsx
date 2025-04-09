@@ -36,7 +36,7 @@ function Sidebar() {
     const pathname = usePathname();
 
     return (
-        <aside className="w-[260px] min-h-screen bg-white shadow-md px-4 py-6 flex flex-col justify-between">
+        <aside  className="w-[260px] min-h-screen bg-white shadow-md px-4 py-6 flex flex-col justify-between  max-md:hidden">
             <div>
                 {/* Logo */}
                 {/* <Link href='/dashboard' className='flex justify-center mb-6'>
