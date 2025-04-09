@@ -144,7 +144,7 @@ const VirtualCard = () => {
             </div>
 
             {/* Account Cards Grid */}
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 lg:grid-cols-2">
               {accountsData.map(account => (
                 <Card
                   key={account.id}
@@ -223,7 +223,7 @@ const VirtualCard = () => {
             </div>
 
             {/* Credit Cards Grid */}
-            <div className="grid gap-4 md:grid-cols-2">
+            <div className="grid gap-4 sm:grid-cols-1 lg:grid-cols-2">
 
 
               {/* {cardsData.map(card => (

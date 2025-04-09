@@ -35,7 +35,7 @@ export default function VirtualCreditCard({
   return (
 
       <div
-        className="relative w-[320px] sm:w-[500px] h-[190px] sm:h-[300px] perspective cursor-pointer"
+        className="relative w-[250px] sm:w-[450px] h-[140px] sm:h-[250px] perspective cursor-pointer"
         
       >
         <div
@@ -71,7 +71,7 @@ export default function VirtualCreditCard({
             </div>
 
             {/* Balance Info */}
-            <div className="relative z-10 flex justify-between text-xs sm:text-sm text-white mb-2">
+            {/* <div className="relative z-10 flex justify-between text-xs sm:text-sm text-white mb-2">
               <div>
                 <p className="opacity-70">Card Limit</p>
                 <p>${limit.toLocaleString()}</p>
@@ -80,7 +80,7 @@ export default function VirtualCreditCard({
                 <p className="opacity-70">Available</p>
                 <p>${available.toLocaleString()}</p>
               </div>
-            </div>
+            </div> */}
 
             {/* Cardholder + Expiry */}
             <div className="absolute bottom-4 sm:bottom-6 left-4 sm:left-6 right-4 sm:right-6 flex justify-between text-xs sm:text-sm text-white">
