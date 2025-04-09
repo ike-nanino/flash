@@ -35,7 +35,7 @@ export default function VirtualCreditCard({
   return (
 
       <div
-        className="relative w-[250px] sm:w-[450px] h-[140px] sm:h-[250px] perspective cursor-pointer"
+        className="relative w-[300px] sm:w-[500px] h-[190px] sm:h-[300px] perspective cursor-pointer"
         
       >
         <div
