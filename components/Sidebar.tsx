@@ -88,7 +88,7 @@ function Sidebar() {
                 </nav>
             </div>
 
-            {/* <Footer /> */}
+     
         </aside>
     )
 }
