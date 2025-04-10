@@ -85,7 +85,7 @@ const VirtualCard = () => {
   };
 
   return (
-    <div className="bg-slate-50 min-h-screen p-4 lg:p-8 mt-20 md:mt-0">
+    <div className="min-h-screen p-4 lg:p-8 mt-20 md:mt-0">
       
       <div className="max-w-6xl mx-auto"> {/* Increased max-width */}
         {/* Header */}

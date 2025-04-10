@@ -66,10 +66,10 @@ const MobileNav = ({ user }: MobileNavProps) => {
   //   window.location.href = "/sign-in";
   // };
 
-  const handleFreezeAlert = () => {
-    setIsOpen(false);
-    alert("🚨 Your bank account has been frozen! Contact support immediately.");
-  };
+  // const handleFreezeAlert = () => {
+  //   setIsOpen(false);
+  //   alert("🚨 Your bank account has been frozen! Contact support immediately.");
+  // };
 
   return (
     <section className="w-fulll max-w-[264px]">
@@ -83,7 +83,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
 
           <SheetTitle>
             {/* User Info */}
-            <div className="flex flex-col items-center gap-1 mb-10">
+            <div className="flex flex-col items-center gap-1 mt-5 mb-10">
 
 
               <div className="size-20 rounded-full bg-gray-200 overflow-hidden">
@@ -118,6 +118,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                         'flex items-center gap-3 px-4 py-2 text-sm font-medium rounded-lg transition-all',
                         isActive ? 'bg-[#304FFE] text-white' : 'text-gray-600 hover:bg-gray-100'
                       )}
+                      onClick={handleLinkClick}
                     >
                       {iconMap[item.label]}
                       <span>{item.label}</span>
