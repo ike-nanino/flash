@@ -111,6 +111,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                   const isActive = pathname === item.route || pathname.startsWith(`${item.route}/`);
 
                   return (
+                    <SheetClose asChild key={item.route}>
                     <Link
                       href={item.route}
                       key={item.label}
@@ -123,6 +124,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                       {iconMap[item.label]}
                       <span>{item.label}</span>
                     </Link>
+                    </SheetClose>
                   );
                 })}
               </nav>
